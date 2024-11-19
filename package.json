@@ -1,7 +1,15 @@
 {
   "name": "react-native-select-component",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A customizable select dropdown component for React Native.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Huzaifa-code/react-native-select-component"
+  },
+  "homepage": "https://github.com/Huzaifa-code/react-native-select-component#readme",
+  "bugs": {
+    "url": "https://github.com/Huzaifa-code/react-native-select-component/issues"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -20,8 +28,11 @@
     "@types/react": "^18.3.12",
     "typescript": "^5.6.3"
   },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0"
+  },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-native": "^0.76.2"
+
   }
 }
