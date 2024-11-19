@@ -1,6 +1,6 @@
 {
   "name": "react-native-select-component",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A customizable select dropdown component for React Native.",
   "repository": {
     "type": "git",
@@ -32,7 +32,5 @@
     "react": ">=18.0.0",
     "react-native": ">=0.70.0"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
