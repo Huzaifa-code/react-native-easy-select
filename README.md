@@ -1,6 +1,6 @@
-# react-native-easy-select Component
+# react-native-select-component
 
-A customizable and reusable `react-native-easy-select` dropdown component for React Native.
+A customizable and reusable `react-native-select-component` dropdown component for React Native.
 
 This component provides a user-friendly way to select options in your app with the flexibility to pass your own styles, icons, and customization props.
 
@@ -11,7 +11,7 @@ This component provides a user-friendly way to select options in your app with t
 To install it from an npm package :
 
 ```bash
-npm install react-native-easy-select
+npm install react-native-select-component
 ```
 
 ---
@@ -23,7 +23,7 @@ npm install react-native-easy-select
 ```tsx
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import CustomSelect from 'react-native-easy-select';
+import CustomSelect from 'react-native-select-component';
 
 const App = () => {
   const [selectedValue, setSelectedValue] = useState('');
