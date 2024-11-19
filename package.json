@@ -1,6 +1,6 @@
 {
   "name": "react-native-select-component",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A customizable select dropdown component for React Native.",
   "main": "dist/index.js",
   "scripts": {

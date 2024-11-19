@@ -20,7 +20,7 @@ type CustomSelectProps = {
   IconComponent?: React.ReactNode;
 };
 
-const CustomSelect: React.FC<CustomSelectProps> = ({
+const RNSelect: React.FC<CustomSelectProps> = ({
   name,
   options = [],
   value,
@@ -123,4 +123,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CustomSelect;
+export default RNSelect;

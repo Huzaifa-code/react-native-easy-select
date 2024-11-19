@@ -14,6 +14,11 @@ To install it from an npm package :
 npm install react-native-select-component
 ```
 
+Expo :
+```bash
+npx expo install react-native-select-component
+```
+
 ---
 
 ## Usage
@@ -23,14 +28,14 @@ npm install react-native-select-component
 ```tsx
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import CustomSelect from 'react-native-select-component';
+import RNSelect from 'react-native-select-component';
 
 const App = () => {
   const [selectedValue, setSelectedValue] = useState('');
 
   return (
     <View style={{ padding: 20 }}>
-      <CustomSelect
+      <RNSelect
         name="example"
         options={[
           { value: '1', label: 'Option 1' },
@@ -84,7 +89,7 @@ You can pass any icon component (e.g., from `@expo/vector-icons`) as the `IconCo
 ```tsx
 import { MaterialIcons } from '@expo/vector-icons';
 
-<CustomSelect
+<RNSelect
   name="year"
   options={[
     { value: '1', label: 'First Year' },
@@ -104,7 +109,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 Customize the dropdown trigger with styles:
 
 ```tsx
-<CustomSelect
+<RNSelect
   name="example"
   options={[
     { value: '1', label: 'Option 1' },
